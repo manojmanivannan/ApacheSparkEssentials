@@ -8,18 +8,18 @@
 After downloading Apache spark binary,
 
 1) Puts Spark in a path variable so you can execute commandlets from that directory.  Adjust to your own directory.
-`$env:Path += ";C:\Users\YOUR_NAME\spark\bin\"`
+`PATH=PATH;C:\Users\YOUR_NAME\spark<VERSION-NO>\bin\"`
 
 2) Set vars for PySpark
-`$env:PYSPARK_DRIVER_PYTHON="ipython"`
+`PYSPARK_DRIVER_PYTHON="ipython"`
 
 3) Specifies PySpark options
-`$env:PYSPARK_DRIVER_PYTHON_OPTS="notebook"`
+`PYSPARK_DRIVER_PYTHON_OPTS="notebook"`
 
 4) Download winutils hadoop from https://github.com/steveloughran/winutils and save the folder of hadoop somewhere in your PC and load that path in env variables as HADOOP_HOME
 `$env:HADOOP_HOME = "C:\Users\YOUR_NAME\hadoop"`
 
-You can apply step 1 through 4 also using the GUI on editing system environment variables
+You can apply step 1 through 4 using the GUI on editing system environment variables
 
 ---
 
