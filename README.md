@@ -16,7 +16,7 @@ After downloading Apache spark binary,
 3) Specifies PySpark options
 `PYSPARK_DRIVER_PYTHON_OPTS="notebook"`
 
-4) Download winutils hadoop from https://github.com/steveloughran/winutils and save the folder of hadoop somewhere in your PC and load that path in env variables as HADOOP_HOME
+4) Download `winutils.exe` and `hadoop.dll` from https://github.com/steveloughran/winutils and save the folder of hadoop somewhere in your PC and load that path in env variables as HADOOP_HOME
 `$env:HADOOP_HOME = "C:\Users\YOUR_NAME\hadoop"`
 
 You can apply step 1 through 4 using the GUI on editing system environment variables
