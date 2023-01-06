@@ -17,6 +17,7 @@ Data obtained from [here](https://github.com/jonesberg/DataAnalysisWithPythonAnd
 
 1. [Introduction](./1_Pyspark_Intro.ipynb)
 2. [First Steps](./2_First_Steps.ipynb)
+3. [Simple Count](./3_Scaling.ipynb)
 
 ## References
 - PySpark's [API Documentation](http://spark.apache.org/docs/latest/api/python/)
