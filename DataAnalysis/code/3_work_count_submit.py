@@ -30,5 +30,4 @@ results = words_nonull.groupby(col("word")).count()
 
 results.orderBy("count", ascending=False).show(10)
 
-
 results.coalesce(1).write.mode("overwrite").csv(out_path)
