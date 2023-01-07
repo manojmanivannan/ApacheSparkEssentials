@@ -19,6 +19,7 @@ Data obtained from [here](https://github.com/jonesberg/DataAnalysisWithPythonAnd
 2. [First Steps](./2_First_Steps.ipynb)
 3. [Simple Count](./3_Scaling.ipynb)
 4. [Analyse Tabular Data](./4_Analyse_tabular.ipynb)
+5. [Joining & Grouping](./5_Joining_Grouping.ipynb)
 
 ## References
 - PySpark's [API Documentation](http://spark.apache.org/docs/latest/api/python/)
