@@ -40,6 +40,7 @@ Data obtained from [here](https://github.com/jonesberg/DataAnalysisWithPythonAnd
     1. [Multidimensional DF: JSON data](./6_PySpark_w_JSON.ipynb)
     2. [Blending Python and SQL](./7_Python_SQL.ipynb)
     3. [Extending PySpark w Python: RDD & UDFs](./8_RDD_n_UDFs.ipynb)
+    4. [Big data: Using pandas UDFs](./9_Pandas_UDF.ipynb)
 
 ## References
 - PySpark's [API Documentation](http://spark.apache.org/docs/latest/api/python/)

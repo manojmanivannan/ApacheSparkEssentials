@@ -1,3 +1,4 @@
 .ipynb_checkpoints
 venv/
 DataAnalysis/data/
+DataAnalysis/big-query-spark-key.json
