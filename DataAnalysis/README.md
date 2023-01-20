@@ -1,7 +1,13 @@
-# Data Analysis with Python and PySpark
+
+# Data Analysis with Python and PySpark <!-- omit in toc -->
 
 Learning material from the book by Jonathan Rioux
 
+## Table of Contents <!-- omit in toc -->
+- [Setup](#setup)
+- [Dataset](#dataset)
+- [Notebooks](#notebooks)
+- [References](#references)
 ## Setup
 
 You will need Java and Spark installed as per instructions in [here](https://sparkbyexamples.com/spark/apache-spark-installation-on-windows/) for windows and [here](https://sparkbyexamples.com/spark/spark-installation-on-linux-ubuntu/) for linux (ubuntu)
@@ -25,9 +31,9 @@ Finally, you should have appended the following to PATH variable
 
 For Python dependencies, install necessary packages in a virtual env using `pip install -r requirements.txt`
 
+## Dataset 
+Data used in these notes were obtained from [here](https://github.com/jonesberg/DataAnalysisWithPythonAndPySpark) are directed by the author in the book.
 
-Data obtained from [here](https://github.com/jonesberg/DataAnalysisWithPythonAndPySpark)
----
 ## Notebooks
 
 1. Part A
@@ -41,8 +47,11 @@ Data obtained from [here](https://github.com/jonesberg/DataAnalysisWithPythonAnd
     2. [Blending Python and SQL](./7_Python_SQL.ipynb)
     3. [Extending PySpark w Python: RDD & UDFs](./8_RDD_n_UDFs.ipynb)
     4. [Big data: Using pandas UDFs](./9_Pandas_UDF.ipynb)
+    5. 
 
 ## References
 - PySpark's [API Documentation](http://spark.apache.org/docs/latest/api/python/)
 - Learn [Regular Expression](https://regexr.com/)
 - PySpark's [SQL API Documentation](https://spark.apache.org/docs/latest/api/sql/index.html)
+
+
