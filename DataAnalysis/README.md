@@ -7,6 +7,8 @@ Learning material from the book by Jonathan Rioux
 - [Setup](#setup)
 - [Dataset](#dataset)
 - [Notebooks](#notebooks)
+  - [Part A](#part-a)
+  - [Part B](#part-b)
 - [References](#references)
 ## Setup
 
@@ -36,18 +38,18 @@ Data used in these notes were obtained from [here](https://github.com/jonesberg/
 
 ## Notebooks
 
-1. Part A
-    1. [Introduction](./1_Pyspark_Intro.ipynb)
-    2. [First Program](./2_First_Steps.ipynb)
-    3. [Submitting and Scaling](./3_Scaling.ipynb)
-    4. [Analyse Tabular Data](./4_Analyse_tabular.ipynb)
-    5. [Joining & Grouping](./5_Joining_Grouping.ipynb)
-2. Part B
-    1. [Multidimensional DF: JSON data](./6_PySpark_w_JSON.ipynb)
-    2. [Blending Python and SQL](./7_Python_SQL.ipynb)
-    3. [Extending PySpark w Python: RDD & UDFs](./8_RDD_n_UDFs.ipynb)
-    4. [Big data: Using pandas UDFs](./9_Pandas_UDF.ipynb)
-    5. 
+### Part A
+ - [1. Introduction](./1_Pyspark_Intro.ipynb)
+ - [2. First Program](./2_First_Steps.ipynb)
+ - [3. Submitting and Scaling](./3_Scaling.ipynb)
+ - [4. Analyse Tabular Data](./4_Analyse_tabular.ipynb)
+ - [5. Joining & Grouping](./5_Joining_Grouping.ipynb)
+### Part B
+ - [6. Multidimensional DF: JSON data](./6_PySpark_w_JSON.ipynb)
+ - [7. Blending Python and SQL](./7_Python_SQL.ipynb)
+ - [8. Extending PySpark w Python: RDD & UDFs](./8_RDD_n_UDFs.ipynb)
+ - [9. Big data: Using pandas UDFs](./9_Pandas_UDF.ipynb)
+ - [10. Window Functions](./10_Window_Functions.ipynb)
 
 ## References
 - PySpark's [API Documentation](http://spark.apache.org/docs/latest/api/python/)
