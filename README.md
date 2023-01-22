@@ -3,7 +3,9 @@
 Learning in use Spark in the context of Python (PySpark) and how to use it in the realm of data analytics.
 
 ## Table of Contents <!-- omit in toc -->
-- [Setup \& Configuration](#setup--configuration)
+- [Setup & Configuration](#setup--configuration)
+  - [Spark & Java](#spark--java)
+  - [Python](#python)
 - [Spark Example code](#some-spark-example-scala-vs-pyspark)
 - **[Data Analytics using PySpark](DataAnalysis/README.md)**
 - **Offline notebooks**
@@ -18,7 +20,9 @@ Learning in use Spark in the context of Python (PySpark) and how to use it in th
     - [ML using new library](./ML_2_SparkByPluralsight.ipynb)
 
 ## Setup & Configuration
+You need Spark and Python for running these notebooks.
 
+### Spark & Java
 You will need Java and Spark installed as per instructions in [here](https://sparkbyexamples.com/spark/apache-spark-installation-on-windows/) for windows and [here](https://sparkbyexamples.com/spark/spark-installation-on-linux-ubuntu/) for linux (ubuntu)
 
 > **Note** Depending on the version of hadoop you get from your spark installation, create a directory, say, c:\hadoop_X\bin. In this directory place `hadoop.dll` and `winutils.exe` after downloading the corresponding verion from this [git repo](https://github.com/kontext-tech/winutils). Then add this directory your Path.
@@ -38,6 +42,14 @@ Finally, you should have appended the following to PATH variable
 - `%JAVA_HOME%\bin`
 - `%HADOOP_HOME%\bin`
 
+### Python
+Version: `3.8.10`
+
+- Install a virtual env using Python `python -m venv venv`
+- Activate the virtual env `.\venv\Scripts\activate` (For linux: `source ./venv/bin/activate`)
+- Install packages/llibraries using `pip install -r requirements.txt`
+
+Start Jupyter server `jupyter notebook`
 
 ---
 
