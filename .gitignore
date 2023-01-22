@@ -1,4 +1,8 @@
 .ipynb_checkpoints
+.ipython
+.ivy2
+.jupyter
+.local
 venv/
 DataAnalysis/data/
 DataAnalysis/big-query-spark-key.json

@@ -1,0 +1,8 @@
+version: "3"
+services:
+  pyspark:
+    image: "jupyter/pyspark-notebook"
+    volumes:
+      - c:/Users/manoj/Documents/MANOJ/Github/ApacheSparkEssential:/home/jovyan # modify the local path to your current working directory
+    ports:
+      - 8888:8888

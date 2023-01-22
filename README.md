@@ -6,6 +6,7 @@ Learning in use Spark in the context of Python (PySpark) and how to use it in th
 - [Setup & Configuration](#setup--configuration)
   - [Spark & Java](#spark--java)
   - [Python](#python)
+  - [Docker Alternative](#docker-alternative)
 - [Spark Example code](#some-spark-example-scala-vs-pyspark)
 - **[Data Analytics using PySpark](DataAnalysis/README.md)**
 - **Offline notebooks**
@@ -50,6 +51,9 @@ Version: `3.8.10`
 - Install packages/llibraries using `pip install -r requirements.txt`
 
 Start Jupyter server `jupyter notebook`
+
+### Docker Alternative
+In case you feed all this configuration is too much, run the notebooks in a docker container with all dependencies already set. Of course you need to have docker/docker-compose installed. Once you have it, modify the mount path in `docker-compose.yaml` , then simply run `docker-compose up`
 
 ---
 
