@@ -26,7 +26,7 @@ You need Spark and Python for running these notebooks.
 ### Spark & Java
 You will need Java and Spark installed as per instructions in [here](https://sparkbyexamples.com/spark/apache-spark-installation-on-windows/) for windows and [here](https://sparkbyexamples.com/spark/spark-installation-on-linux-ubuntu/) for linux (ubuntu)
 
-> **Note** Depending on the version of hadoop you get from your spark installation, create a directory, say, c:\hadoop_X\bin. In this directory place `hadoop.dll` and `winutils.exe` after downloading the corresponding verion from this [git repo](https://github.com/kontext-tech/winutils). Then add this directory your Path.
+> 📝 **Note**:  Depending on the version of hadoop you get from your spark installation, create a directory, say, c:\hadoop_X\bin. In this directory place `hadoop.dll` and `winutils.exe` after downloading the corresponding verion from this [git repo](https://github.com/kontext-tech/winutils). Then add this directory your Path.
 
 So in summary, you should have set these environment variables
 - `HADOOP_HOME=C:\hadoop3`
@@ -53,7 +53,7 @@ Version: `3.8.10`
 Start Jupyter server `jupyter notebook`
 
 ### Docker Alternative
-In case you feed all this configuration is too much, run the notebooks in a docker container with all dependencies already set. Of course you need to have docker/docker-compose installed. Once you have it, modify the mount path in `docker-compose.yaml` , then simply run `docker-compose up`
+In case you feel all this configuration is too much, run the notebooks in a docker container with all dependencies already set. Of course you need to have docker/docker-compose installed. Once you have it, modify the mount path in `docker-compose.yaml` , then simply run `docker-compose up`
 
 ---
 
