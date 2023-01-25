@@ -53,7 +53,7 @@ Version: `3.8.10`
 Start Jupyter server `jupyter notebook`
 
 ### Docker Alternative
-In case you feel all this configuration is too much, run the notebooks in a docker container with all dependencies already set. Of course you need to have docker/docker-compose installed. Once you have it, modify the mount path in `docker-compose.yaml` , then simply run `docker-compose up`
+In case you feel all this configuration is too much, run the notebooks in a docker container with all dependencies already set. Of course you need to have `docker/docker-compose` and `Make` installed. Once you have it, run `make` to start the containers. If you dont have `Make` installed, manually modify the mount path in `docker-compose.yaml` , then simply run `docker-compose -f docker-compose.yaml up`
 
 ---
 
