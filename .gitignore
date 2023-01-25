@@ -3,6 +3,7 @@
 .ivy2
 .jupyter
 .local
+docker-compose1.yaml
 venv/
 DataAnalysis/data/
 DataAnalysis/big-query-spark-key.json
