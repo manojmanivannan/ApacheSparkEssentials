@@ -1,7 +1,7 @@
 jupyter
 pyspark==3.2.0 # since this is the spark version used in this project
 black[jupyter] # to format code in jupyter notebooks
-numpy
+numpy==1.23.1
 py4j
 pandas
 scikit-learn
