@@ -54,6 +54,7 @@ Data used in these notes were obtained from [here](https://github.com/jonesberg/
  - [11. Faster PySpark](./11_Faster_PySpark.ipynb)
 ### Part 3 - Get confident
  - [12. Features for ML](./12_Preparing_ML_Features.ipynb)
+ - [13. ML pipelines](./13_Robust_ML_piplines.ipynb)
 ## References
 - PySpark's [API Documentation](http://spark.apache.org/docs/latest/api/python/)
 - Learn [Regular Expression](https://regexr.com/)

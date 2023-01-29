@@ -6,3 +6,4 @@ py4j
 pandas
 scikit-learn
 pyarrow
+matplotlib
