@@ -55,6 +55,7 @@ Data used in these notes were obtained from [here](https://github.com/jonesberg/
 ### Part 3 - Get confident
  - [12. Features for ML](./12_Preparing_ML_Features.ipynb)
  - [13. ML pipelines](./13_Robust_ML_piplines.ipynb)
+ - [14. Custom ML transformers](./14_Custom_ML_transformers.ipynb)
 ## References
 - PySpark's [API Documentation](http://spark.apache.org/docs/latest/api/python/)
 - Learn [Regular Expression](https://regexr.com/)
