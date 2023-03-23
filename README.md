@@ -53,7 +53,9 @@ Version: `3.8.10`
 Start Jupyter server `jupyter notebook`
 
 ### Docker Alternative
-In case you feel all this configuration is too much, run the notebooks in a docker container with all dependencies already set. Of course you need to have `docker/docker-compose` and `Make` installed. Once you have it, run `make` to start the containers. If you dont have `Make` installed, manually modify the mount path in `docker-compose.yaml` , then simply run `docker-compose -f docker-compose.yaml up`
+In case you feel all this configuration is too much, run the notebooks in a docker container with all dependencies already set. Of course you need to have `docker/docker-compose` and `make` installed ([download for windows from here](https://gnuwin32.sourceforge.net/packages/make.htm)). Once you have it, run `make` to start the containers. If you dont have `make` installed, and only have docker, then simply run 
+- `docker run --rm -ti -e JUPYTER_ALLOW_INSECURE_WRITES=1 -p 8888:8888 -v %cd%:/home/jovyan --name pyspark-notebook jupyter/pyspark-notebook` for windows
+- `docker run --rm -ti  -p 8888:8888 -v $(pwd):/home/jovyan --name pyspark-notebook jupyter/pyspark-notebook` for linux
 
 ---
 

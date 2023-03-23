@@ -2,6 +2,8 @@ version: "3"
 services:
   pyspark:
     image: "jupyter/pyspark-notebook"
+    environment:
+      - JUPYTER_ALLOW_INSECURE_WRITES=1
     volumes:
       - CURRENT_PATH:/home/jovyan # modify the local path to your current working directory
     ports:
